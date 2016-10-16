@@ -16,8 +16,8 @@ public class ConnectionPost {
             Class.forName("org.postgresql.Driver");
             Properties conprop = new Properties();
             conprop.setProperty("user", "postgres");
-            conprop.setProperty("password", "manager");
-            return DriverManager.getConnection("jdbc:postgresql://192.168.0.107:5433/ss-1", conprop);
+            conprop.setProperty("password", "");
+            return DriverManager.getConnection("jdbc:postgresql://192.168.0.16:5432/ss-1", conprop);
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

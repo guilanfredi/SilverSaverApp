@@ -3,6 +3,7 @@
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
+    <string name="prompt_name">Nome</string>
     <string name="prompt_password">Senha</string>
     <string name="action_sign_in">Login</string>
     <string name="action_sign_in_short">Registrar</string>
@@ -13,5 +14,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_register">Sign in</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
